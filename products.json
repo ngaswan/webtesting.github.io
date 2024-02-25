@@ -1,0 +1,56 @@
+[
+{
+    "id" : 1,
+    "name" : "Monhinga",
+    "price" : "3000MMK",
+    "image" : "image/dish1.jpg"
+},
+
+{
+    "id" : 2,
+    "name" : "Nan Gyi thoke",
+    "price" : "3000MMK",
+    "image" : "image/dish2.jpg"
+},
+
+{
+    "id" : 3,
+    "name" : "Shwe Daung Noodle",
+    "price" : "3000MMK",
+    "image" : "image/dish3.png"
+},
+
+{
+    "id" : 4,
+    "name" : "Spaghetti",
+    "price" : "4500MMK",
+    "image" : "image/dish4.jpg"
+},
+
+{
+    "id" : 5,
+    "name" : "Steak",
+    "price" : "5000MMK",
+    "image" : "image/dish5.jpg"
+},
+
+{
+    "id" : 6,
+    "name" : "Turkey Meatball",
+    "price" : "4500MMK",
+    "image" : "image/dish6.png"
+},
+
+{
+    "id" : 7,
+    "name" : "Vegetavle Fried Rice",
+    "price" : "3000MMK",
+    "image" : "image/dish7.png"
+},
+{
+    "id" : 8,
+    "name" : "Tempura",
+    "price" : "5000MMK",
+    "image" : "image/dish8.jpg"
+}
+]
