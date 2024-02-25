@@ -15,7 +15,6 @@
     width: 1200px;
     height: 75px;
     margin: auto;
-    color: black;
 }
 
 .icon{
@@ -64,7 +63,7 @@ ul li{
 ul li a{
     align-items: right;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;

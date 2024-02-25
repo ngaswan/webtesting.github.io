@@ -5,23 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
-    <script>
-        $(function () {
-            $("header").load("header.html");
-        });
-    </script>
-
     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
-<body class="showCart">
-    <!-- nav -->
+<body>
+    <!-- nav bar2 start -->
     <section class="header">
         <nav class="navbar">
             <a href="Res.html">home</a>
@@ -31,34 +26,18 @@
             <a href="booking" style="background-color: #ff7200; color: white;">booking</a>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
-        <div class="icon-cart">
-            <svg  aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.3L19 7H7.3"/>
-              </svg>
-             
-        </div>
-        <div class="cartTab">
-            <h1>Shopping Cart</h1>
-            <div class="listCart">
-              
-            </div>
-            <div class="cart-btn">
-                <button class="close">CLOSE</button>
-                <button class="button checkOut">CHECK OUT</button>
-            </div>
-        </div>
-       
     </section>
+    <!-- nav bar2 end -->
 
-    
-    <!-- nav end -->
     <section class="about" id="about">
         <div class="image">
             <img src="image/about2.jpg" alt="">
         </div>
         <div class="content">
             <h3 class="title">Welcome to our restuarant</h3>
-            <p>Our restuarant serves delicious meal , cafe, drink, snack and chip.Enjoy here.</p>
+            <p>Our restuarant serves the great dishes, cafe & drink and snacks & chip.
+                All the food are delicious and freash. Serve and Enjoy.
+            </p>
             <a href="#" class="btn">read more</a>
             <div class="icons-container">
                 <a href="#dish">
@@ -74,15 +53,14 @@
                     </div>
                 </a>
                 <a href="#snack">
-                    <div class="icon">
+                     <div class="icon">
                         <img src="image/icons5.png" alt="">
                         <h3>Snack & chip</h3>
-                    </div>
-                </a>
-            </div>
+                     </div>
+               </a>
         </div>
     </section>
-    <!-- main -->
+    <!-- main dish start -->
     <section id="dish" class="coffee">
         <h2 class="heading">Main dishes</h2>
         <div class="coffee-menu">
@@ -91,12 +69,102 @@
                     <img src="image/dish1.jpg" alt="">
                 </div>
                 <h3>Mohinga</h3>
-                <span>3000mmk</>
-                    <button class="addCart">Add to cart</button>
+                <span>3000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish2.jpg" alt="">
+                </div>
+                <h3> Nan Gyi Thoke</h3>
+                <span>3000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish3.png" alt="">
+                </div>
+                <h3>Shwe Taung Noddle</h3>
+                <span>3000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish12.jpg" alt="">
+                </div>
+                <h3> Spaghetti</h3>
+                <span>3500mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish5.jpg" alt="">
+                </div>
+                <h3>Steak</h3>
+                <span>5000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish6.png" alt="">
+                </div>
+                <h3>Turkey Meatball</h3>
+                <span>4000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish7.png" alt="">
+                </div>
+                <h3>Vegetable Fried Rice</h3>
+                <span>3000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish8.jpg" alt="">
+                </div>
+                <h3>Tempura </h3>
+                <span>3000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish10.jpg" alt="">
+                </div>
+                <h3>Sweet Pork Curry</h3>
+                <span>5000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish4.jpg" alt="">
+                </div>
+                <h3>Soulful Chicken Soup</h3>
+                <span>5000mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish11.png" alt="">
+                </div>
+                <h3>Spicy Chicken Wing</h3>
+                <span>3500mmk</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/dish13.png" alt="">
+                </div>
+                <h3>Chicken Tandorri</h3>
+                <span>3500mmk</span>
+                <button>Add to cart</button>
             </div>
         </div>
     </section>
-    <!-- cafe -->
+
+    <!-- main dish end -->
+    <!--cafe start-->
     <section id="coffee" class="coffee">
         <h2 class="heading">Cafe & Drink</h2>
         <div class="coffee-menu">
@@ -184,7 +252,7 @@
                 <div class="box-img">
                     <img src="image/drink3.png" alt="">
                 </div>
-                <h3>Pineapple-Chile Limeade</h3>
+                <h3>Pineapple-Chile  Limeade</h3>
                 <span>3000mmk</span>
                 <button>Add to cart</button>
             </div>
@@ -198,7 +266,8 @@
             </div>
         </div>
     </section>
-    <!-- snack -->
+    <!--cafe end-->
+    <!-- snack start -->
     <section id="snack" class="coffee">
         <h2 class="heading">Snack & Chip</h2>
         <div class="coffee-menu">
@@ -299,10 +368,8 @@
                 <button>Add to cart</button>
             </div>
         </div>
-
     </section>
-
-    
+    <!-- snack end -->
     <script src="menu.js"></script>
 </body>
 
